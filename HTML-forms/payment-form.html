@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+<head>
     <meta charset="utf-8">
     <title>My test page</title>
     <link href="payment-form.css" rel="stylesheet">
-  </head>
+</head>
 
-  <body>
+<body>
     <p>This is my page</p>
 
     <form>
         <h1>Payment form</h1>
-        <p>Required filed are followed by <strong><abbr title="required">*</abbr></strong>.</p>
+        <p>Required filed are followed by
+            <strong>
+                <abbr title="required">*</abbr>
+            </strong>.</p>
 
         <section>
             <h2>Contact information</h2>
@@ -36,25 +39,31 @@
             <p>
                 <label for="name">
                     <span>Name:</span>
-                    <strong><abbr title="required">*</abbr></strong>
+                    <strong>
+                        <abbr title="required">*</abbr>
+                    </strong>
                 </label>
-                <input type="text" id="name" name="username"> 
+                <input type="text" id="name" name="username">
             </p>
 
             <p>
                 <label for="mail">
                     <span>E-mail:</span>
-                    <strong><abbr title="required">*</abbr></strong>
+                    <strong>
+                        <abbr title="required">*</abbr>
+                    </strong>
                 </label>
-                <input type="mail" id="mail" name="usermail"> 
+                <input type="mail" id="mail" name="usermail">
             </p>
 
             <p>
                 <label for="pwd">
                     <span>Password:</span>
-                    <strong><abbr title="required">*</abbr></strong>
+                    <strong>
+                        <abbr title="required">*</abbr>
+                    </strong>
                 </label>
-                <input type="password" id="pwd" name="password"> 
+                <input type="password" id="pwd" name="password">
             </p>
 
         </section>
@@ -77,7 +86,9 @@
             <p>
                 <label for="number">
                     <span>Card number:</span>
-                    <strong><abbr title="required">*</abbr></strong>
+                    <strong>
+                        <abbr title="required">*</abbr>
+                    </strong>
                 </label>
                 <input type="text" id="number" name="cardnumber">
             </p>
@@ -85,16 +96,20 @@
             <p>
                 <label for="date">
                     <span>Expiration date:</span>
-                    <strong><abbr title="required">*</abbr></strong>
+                    <strong>
+                        <abbr title="required">*</abbr>
+                    </strong>
                     <em>formatted as mm/yy</em>
                 </label>
                 <input type="text" id="date" name="expiration">
             </p>
         </section>
 
-        <p><button type="submit">Validate the payment</button></p>
+        <p>
+            <button type="submit">Validate the payment</button>
+        </p>
     </form>
 
-  </body>
+</body>
 
 </html>
