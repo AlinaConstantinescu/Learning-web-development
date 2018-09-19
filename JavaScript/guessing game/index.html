@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
     <script src="script.js"></script>
 </head>
 <body>
@@ -12,9 +12,12 @@
             See if you can guess it in 10 turns or fewer. 
             We'll tell you if your guess was too high or too low.
         </p>
-        <label for="guessField"> Enter a guess:</label><input type="text" id="guessField">
-        <button type="submit" class="guesssubmit">Submit guess</button>
-
+        
+        <div class="form">
+            <label for="guessField"> Enter a guess:</label><input type="text" id="guessField" class="guessField">
+            <button type="submit"  value="Submit guess" class="guessSubmit">Submit guess</button>
+        </div>
+        
         <p class='guesses'></p>
         <p class="lastResult"></p>
         <p class="lowOrHi"></p>
