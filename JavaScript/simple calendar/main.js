@@ -15,7 +15,7 @@ select.onchange = function() {
    }
 
 function createCalendar(days, choise) {
-    //list.innerHTML = '';
+    //vclist.innerHTML = '';
     h1.textContent = choise;
     for (var i = 1; i<=days; i++) {
         var listItem = document.createElement('li');
