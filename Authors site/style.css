@@ -1,0 +1,69 @@
+body {
+    background: url("back-site.jpg");
+    opacity: 3;
+    font-style: bold;
+}
+
+p {
+    font-size: 18px;
+}
+
+header {
+    position: relative;
+    font-family: fantasy;
+    font-size: 25px;
+    left: 280px;
+    padding: 10px;
+    width: 800px;
+
+.site-title {
+    text-align: center;
+    padding: 10px;
+
+}
+
+.sitebar {
+    position: absolute;
+    left:0px;
+    top: 0px;
+    width: 250px;
+    height: 700px;
+    padding: 1em; 
+}
+
+.sitebar-content {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: fixed;
+    top: 150px;
+}
+
+.sitebar-title{
+   font-size: 23px;
+   font-style: italic;
+}
+
+.quote {
+    position: absolute;
+    left: 250px;
+    width: auto;
+    height: 700px;
+    font-family: fantasy;
+    text-align: center;
+    background-image: url()
+}
+
+.quote-title {
+    font-size: 30px;
+    padding: 50px;    
+}
+
+.quote-description {
+
+    font-style: italic;
+    font-size: 20px;
+    padding: 60px;
+}
+
+ul {
+    font-size: 15x;
+}
