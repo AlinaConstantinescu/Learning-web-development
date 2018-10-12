@@ -2,44 +2,93 @@
 <html>
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Online library</title>
+    <meta charset="utf-8" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
 
 <body>
 
-    <header>
-        <p class="site-title">Aici vei gasi o parte din cartile pe care le-am citit si pe
+    <header class="pt-4 ml-16">
+        <p class="text-2xl italic text-center pt-4 pl-32 ml-16 absolute">
+            Aici vei gasi o parte din cartile pe care le-am citit si pe
             care le-as recomanda cu draga inima in timpul liber.
         </p>
     </header>
 
     <main>
 
-        <div class="sitebar">
-            <div class="sitebar-content">
-                <p class="sitebar-title">Genuri literare</p>
+        <div class="fixed w-64 bg-yellow">
+            <div class="fixed mt-32 pt-20">
+                <p>Genuri literare</p>
                 <ul>
-                    <li>Literatura romana</li>
-                    <li>Literatura universala</li>
-                    <li>Stiinta</li>
-                    <li>Istorie</li>
-                    <li>Drept</li>
-                    <li>Psihologie</li>
-                    <li>Literatura motivationala</li>
-                    <li>Limba engleza</li>
-                    <li>Diverse</li>
+                    <li>Literatura romana
+                        <ul class="submenu">
+                            <li>Ileana Vulpescu - Converatii</li>
+                            <li>Oana Pelea - Jurnal</li>
+                            <li>Tudor Chirila - Exercitii de echilibru</li>
+                        </ul>
+                    </li>
+                    <li>Literatura universala
+                        <ul class="submenu">
+                            <li>Harry Potter</li>
+                            <li>Cronicile Wardstone</li>
+                            <li>John Boyne - Baiatul cu Pijamale in dungi</li>
+                        </ul>
+                    </li>
+                    <li>Stiinta
+                        <ul class="submenu">
+                            <li>David Mitchel - Atlasul Norilor</li>
+                            <li>Albert Camus - Ciuma</li>
+                            <li>Amelie Nothomb - Acid Sulfuric</li>
+                        </ul>
+                    </li>
+                    <li>Istorie
+                        <ul class="submenu">
+                            <li>Sapiens - History of humankind</li>
+                            <li>N Iorga - Istoria lui Stefan cel Mare</li>
+                            <li>Imanuel Kant - Fragmente</li>
+                        </ul>
+                    </li>
+                    <li>Psihologie
+                        <ul class="submenu">
+                            <li>Shery Argov - De ce barbatii se insoara cu scorpii?</li>
+                            <li>Paul Hauk - Cum sa iubesti pentru a fi iubit</li>
+                            <li>Sergiu Somesan - Fauritorul de vise</li>
+                        </ul>
+                    </li>
+                    <li>Literatura motivationala
+                        <ul class="submenu">
+                            <li>Osho - Bucuria</li>
+                            <li>Osho - Intimitatea</li>
+                            <li>Osho - Emotiile</li>
+                        </ul>
+                    </li>
+                    <li>Limba engleza
+                        <ul class="submenu">
+                            <li>Nely Camb - Creatura</li>
+                            <li>Kim Thuly - Ru</li>
+                            <li>Paulo Coehlo - Brida</li>
+                        </ul>
+                    </li>
+                    <li>Diverse
+                        <ul class="submenu">
+                            <li>Aurelia Marinesu - Codul bunelor maniere</li>
+                            <li>Anais Nin - Incest din jurnalul dragostei</li>
+                            <li>Anais Nin - Foc din jurnalul dragostei</li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>
-        <div class='quote'>
-            <p class="quote-title">Ceva chestie despre carti</p>
-            <p class="quote-description">"Cartea este o a doua sora pentru fiecare copil in parte.ea te invata  tot ce
-                trebuie sa stii in viitor. Niciodata no sa te insele sau sa te invete ceva de rau.
+        <div class='pt-16 pl-32 text text-center'>
+            <p class="text-3xl italic pt-24">Ceva chestie despre carti</p>
+            <p class="text-2xl italic pt-16 pl-26 text-center">"Cartea este o a doua sora pentru fiecare copil in
+                parte.ea te
+                invata  tot ce trebuie sa stii in viitor. Niciodata no sa te insele sau sa te invete ceva de rau.
                 Cartea e ca o prima trepta in viata. Daca o vei inconjura o sa regreti tot restul vieti.
-                Nimik nu te poate face linistit de cat sa citesti o carte. Cartea a fost este si va
+                Nimic nu te poate face linistit de cat sa citesti o carte. Cartea a fost este si va
                 fi unicul obiect pretios al elevilor si al intregii omeniri."
             </p>
         </div>
