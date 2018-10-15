@@ -1,7 +1,11 @@
-var submenu = document.getElementsByClassName('submenu');
+function displayValue(value, addMargin, addPadding) {
+    var div = document.createElement('div');
+    div.style.fontSize = '18px';
 
-for (i = 0; i < submenu.length; i++) {
-    submenu[i].addEventListener('click', showBooks() {
-        this.class
-    })
+    if (addMargin)
+        div.style.marginBottom = '10px';
+    if (addPadding)
+        div.style.paddingLeft = '20px';
+    div.innerText = value;
+
 }

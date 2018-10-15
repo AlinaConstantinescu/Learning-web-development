@@ -2,42 +2,93 @@ body {
     background: url("back-site.jpg");
     opacity: 3;
     font-style: bold;
-    font-family: fantasy;
 }
 
 p {
-
-}
-
-/*.sitebar-content > ul > li:hover {
-    position: relative;
-    color: rgb(69, 36, 121);
-    cursor: pointer;
-}*/
-
-
-ul {
     font-size: 18px;
 }
 
-/*ul.submenu {
+header {
+    position: relative;
+    font-family: fantasy;
+    font-size: 25px;
+    font: bold;
+    left: 280px;
+    padding: 15px;
+    width: 800px;
+}
+
+.sitebar {
+    position: fixed;
+    left:0px;
+    top: 0px;
+    width: 200px;
+    height: 700px;
+    padding: 1em; 
+    border-right: 1px solid black;
+}
+
+.sitebar-content {
+    font-family: fantasy;
+    position: fixed;
+    top: 150px;
+}
+
+.sitebar-content > ul > li:hover {
+    position: relative;
+    color: rgb(69, 36, 121);
+    cursor: pointer;
+}
+
+.sitebar-title{
+   font-size: 23px;
+   font-style: italic;
+}
+
+.quote {
+    position: fixed;
+    left: 200px;
+    width: auto;
+    height: 700px;
+    font-family: fantasy;
+    text-align: center;
+    background-image: url()
+}
+
+.quote-title {
+    font-size: 30px;
+    padding: 50px;    
+}
+
+.quote-description {
+
+    font-style: italic;
+    font-size: 20px;
+    padding: 60px;
+}
+
+ul {
+    font-size: 16px;
+}
+
+ul.submenu {
     position: absolute;
     list-style-type:none;
     width: 170px;
-    font-size: 13px;
+    font-size: 12px;
     padding-left: 1px;
     display: none;
-    border: 0.5px solid black;
-}*/
+}
 
-/*ul.submenu li {
+ul.submenu li {
     padding-top: 2px;
     padding-bottom: 2px;
-}*/
+}
 
-/*.sitebar-content li:hover .submenu {
+.sitebar-content li:hover .submenu {
     cursor: pointer;
     display: block;
     position: relative;
     color: black;
-} */
+
+} 
